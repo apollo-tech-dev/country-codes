@@ -137,6 +137,12 @@ feature requests, please open an issue on GitHub. That said, time permitting, we
 This package uses [Semantic Versioning](https://semver.org/). For the versions available, see the Releases on this repository.
 Due to the nature of this package, it is unlikely to have any major updates, so the versioning will likely remain at 1.x.x.
 
+We maintain semver by utilizing [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) via the [Commit Lint](https://commitlint.js.org/)
+package. This allows us to automatically generate the version number based on the commit messages, using the [Release Please](https://github.com/googleapis/release-please-action)
+GitHub Action. Due to this, releases are automatically generated when a new commit is pushed to the main branch. The release is then
+published to the NPM registry. This could mean that the GitHub release and the NPM package version are not in sync for a short period
+of time.
+
 If a future utility were to be added that significantly changed the nature of the package, we would likely create a new
 package with a different name to avoid complicating the existing package.
 

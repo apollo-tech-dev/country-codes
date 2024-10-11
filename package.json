@@ -20,8 +20,7 @@
     "lint:fix": "eslint --fix src/**/*.ts",
     "format": "prettier --write \"src/**/*.ts\"",
     "build": "tsup",
-    "prepare": "husky",
-    "precommit": "npm run lint:fix && npm run format",
+    "prepare": "husky && husky install",
     "prepush": "npm run lint",
     "predeploy": "npm run lint && npm test",
     "deploy": "npm test && npm run build && npm publish --access public"
@@ -50,13 +49,21 @@
     "@types/jest": "^29.5.13",
     "@types/node": "^22.7.5",
     "eslint": "^9.12.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-jest": "^28.8.3",
     "globals": "^15.11.0",
     "husky": "^9.1.6",
     "jest": "^29.7.0",
+    "lint-staged": "^15.2.10",
+    "prettier": "3.3.3",
     "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
     "tsup": "^8.3.0",
     "typescript": "^5.6.3",
     "typescript-eslint": "^8.8.1"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*.ts": "prettier --write"
   }
 }

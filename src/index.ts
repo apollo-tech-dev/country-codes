@@ -27,7 +27,6 @@ export type CountryResponse = Country | null;
  * ```
  */
 export default class CountryCodes {
-
     /**
      * List of countries
      */
@@ -41,7 +40,7 @@ export default class CountryCodes {
             iso2: 'AF',
             iso3: 'AFG',
             isoNo: '004',
-            internet: 'AF'
+            internet: 'AF',
         },
         {
             continent: 'Europe',
@@ -52,7 +51,7 @@ export default class CountryCodes {
             iso2: 'AL',
             iso3: 'ALB',
             isoNo: '008',
-            internet: 'AL'
+            internet: 'AL',
         },
         {
             continent: 'Africa',
@@ -63,7 +62,7 @@ export default class CountryCodes {
             iso2: 'DZ',
             iso3: 'DZA',
             isoNo: '012',
-            internet: 'DZ'
+            internet: 'DZ',
         },
         {
             continent: 'Oceania',
@@ -74,7 +73,7 @@ export default class CountryCodes {
             iso2: 'AS',
             iso3: 'ASM',
             isoNo: '016',
-            internet: 'AS'
+            internet: 'AS',
         },
         {
             continent: 'Europe',
@@ -85,7 +84,7 @@ export default class CountryCodes {
             iso2: 'AD',
             iso3: 'AND',
             isoNo: '020',
-            internet: 'AD'
+            internet: 'AD',
         },
         {
             continent: 'Africa',
@@ -96,7 +95,7 @@ export default class CountryCodes {
             iso2: 'AO',
             iso3: 'AGO',
             isoNo: '024',
-            internet: 'AO'
+            internet: 'AO',
         },
         {
             continent: 'Americas',
@@ -107,7 +106,7 @@ export default class CountryCodes {
             iso2: 'AI',
             iso3: 'AIA',
             isoNo: '660',
-            internet: 'AI'
+            internet: 'AI',
         },
         {
             continent: 'Americas',
@@ -118,7 +117,7 @@ export default class CountryCodes {
             iso2: 'AG',
             iso3: 'ATG',
             isoNo: '028',
-            internet: 'AG'
+            internet: 'AG',
         },
         {
             continent: 'Americas',
@@ -129,7 +128,7 @@ export default class CountryCodes {
             iso2: 'AR',
             iso3: 'ARG',
             isoNo: '032',
-            internet: 'AR'
+            internet: 'AR',
         },
         {
             continent: 'Asia',
@@ -140,7 +139,7 @@ export default class CountryCodes {
             iso2: 'AM',
             iso3: 'ARM',
             isoNo: '051',
-            internet: 'AM'
+            internet: 'AM',
         },
         {
             continent: 'Americas',
@@ -151,7 +150,7 @@ export default class CountryCodes {
             iso2: 'AW',
             iso3: 'ABW',
             isoNo: '533',
-            internet: 'AW'
+            internet: 'AW',
         },
         {
             continent: 'Oceania',
@@ -162,7 +161,7 @@ export default class CountryCodes {
             iso2: 'AU',
             iso3: 'AUS',
             isoNo: '036',
-            internet: 'AU'
+            internet: 'AU',
         },
         {
             continent: 'Europe',
@@ -173,7 +172,7 @@ export default class CountryCodes {
             iso2: 'AT',
             iso3: 'AUT',
             isoNo: '040',
-            internet: 'AT'
+            internet: 'AT',
         },
         {
             continent: 'Asia',
@@ -184,7 +183,7 @@ export default class CountryCodes {
             iso2: 'AZ',
             iso3: 'AZE',
             isoNo: '031',
-            internet: 'AZ'
+            internet: 'AZ',
         },
         {
             continent: 'Americas',
@@ -195,7 +194,7 @@ export default class CountryCodes {
             iso2: 'BS',
             iso3: 'BHS',
             isoNo: '044',
-            internet: 'BS'
+            internet: 'BS',
         },
         {
             continent: 'Asia',
@@ -206,7 +205,7 @@ export default class CountryCodes {
             iso2: 'BH',
             iso3: 'BHR',
             isoNo: '048',
-            internet: 'BH'
+            internet: 'BH',
         },
         {
             continent: 'Asia',
@@ -217,7 +216,7 @@ export default class CountryCodes {
             iso2: 'BD',
             iso3: 'BGD',
             isoNo: '050',
-            internet: 'BD'
+            internet: 'BD',
         },
         {
             continent: 'Americas',
@@ -228,7 +227,7 @@ export default class CountryCodes {
             iso2: 'BB',
             iso3: 'BRB',
             isoNo: '052',
-            internet: 'BB'
+            internet: 'BB',
         },
         {
             continent: 'Europe',
@@ -239,7 +238,7 @@ export default class CountryCodes {
             iso2: 'BY',
             iso3: 'BLR',
             isoNo: '112',
-            internet: 'BY'
+            internet: 'BY',
         },
         {
             continent: 'Europe',
@@ -250,7 +249,7 @@ export default class CountryCodes {
             iso2: 'BE',
             iso3: 'BEL',
             isoNo: '056',
-            internet: 'BE'
+            internet: 'BE',
         },
         {
             continent: 'Americas',
@@ -261,7 +260,7 @@ export default class CountryCodes {
             iso2: 'BZ',
             iso3: 'BLZ',
             isoNo: '084',
-            internet: 'BZ'
+            internet: 'BZ',
         },
         {
             continent: 'Africa',
@@ -272,7 +271,7 @@ export default class CountryCodes {
             iso2: 'BJ',
             iso3: 'BEN',
             isoNo: '204',
-            internet: 'BJ'
+            internet: 'BJ',
         },
         {
             continent: 'Americas',
@@ -283,7 +282,7 @@ export default class CountryCodes {
             iso2: 'BM',
             iso3: 'BMU',
             isoNo: '060',
-            internet: 'BM'
+            internet: 'BM',
         },
         {
             continent: 'Asia',
@@ -294,7 +293,7 @@ export default class CountryCodes {
             iso2: 'BT',
             iso3: 'BTN',
             isoNo: '064',
-            internet: 'BT'
+            internet: 'BT',
         },
         {
             continent: 'Americas',
@@ -305,7 +304,7 @@ export default class CountryCodes {
             iso2: 'BO',
             iso3: 'BOL',
             isoNo: '068',
-            internet: 'BO'
+            internet: 'BO',
         },
         {
             continent: 'Europe',
@@ -316,7 +315,7 @@ export default class CountryCodes {
             iso2: 'BA',
             iso3: 'BIH',
             isoNo: '070',
-            internet: 'BA'
+            internet: 'BA',
         },
         {
             continent: 'Africa',
@@ -327,7 +326,7 @@ export default class CountryCodes {
             iso2: 'BW',
             iso3: 'BWA',
             isoNo: '072',
-            internet: 'BW'
+            internet: 'BW',
         },
         {
             continent: 'Americas',
@@ -338,7 +337,7 @@ export default class CountryCodes {
             iso2: 'BR',
             iso3: 'BRA',
             isoNo: '076',
-            internet: 'BR'
+            internet: 'BR',
         },
         {
             continent: 'Americas',
@@ -349,7 +348,7 @@ export default class CountryCodes {
             iso2: 'VG',
             iso3: 'VGB',
             isoNo: '092',
-            internet: 'VG'
+            internet: 'VG',
         },
         {
             continent: 'Asia',
@@ -360,7 +359,7 @@ export default class CountryCodes {
             iso2: 'BN',
             iso3: 'BRN',
             isoNo: '096',
-            internet: 'BN'
+            internet: 'BN',
         },
         {
             continent: 'Europe',
@@ -371,7 +370,7 @@ export default class CountryCodes {
             iso2: 'BG',
             iso3: 'BGR',
             isoNo: '100',
-            internet: 'BG'
+            internet: 'BG',
         },
         {
             continent: 'Africa',
@@ -382,7 +381,7 @@ export default class CountryCodes {
             iso2: 'BF',
             iso3: 'BFA',
             isoNo: '854',
-            internet: 'BF'
+            internet: 'BF',
         },
         {
             continent: 'Africa',
@@ -393,7 +392,7 @@ export default class CountryCodes {
             iso2: 'BI',
             iso3: 'BDI',
             isoNo: '108',
-            internet: 'BI'
+            internet: 'BI',
         },
         {
             continent: 'Asia',
@@ -404,7 +403,7 @@ export default class CountryCodes {
             iso2: 'KH',
             iso3: 'KHM',
             isoNo: '116',
-            internet: 'KH'
+            internet: 'KH',
         },
         {
             continent: 'Africa',
@@ -415,7 +414,7 @@ export default class CountryCodes {
             iso2: 'CM',
             iso3: 'CMR',
             isoNo: '120',
-            internet: 'CM'
+            internet: 'CM',
         },
         {
             continent: 'Americas',
@@ -426,7 +425,7 @@ export default class CountryCodes {
             iso2: 'CA',
             iso3: 'CAN',
             isoNo: '124',
-            internet: 'CA'
+            internet: 'CA',
         },
         {
             continent: 'Africa',
@@ -437,7 +436,7 @@ export default class CountryCodes {
             iso2: 'CV',
             iso3: 'CPV',
             isoNo: '132',
-            internet: 'CV'
+            internet: 'CV',
         },
         {
             continent: 'Americas',
@@ -448,7 +447,7 @@ export default class CountryCodes {
             iso2: 'KY',
             iso3: 'CYM',
             isoNo: '136',
-            internet: 'KY'
+            internet: 'KY',
         },
         {
             continent: 'Africa',
@@ -459,7 +458,7 @@ export default class CountryCodes {
             iso2: 'CF',
             iso3: 'CAF',
             isoNo: '140',
-            internet: 'CF'
+            internet: 'CF',
         },
         {
             continent: 'Africa',
@@ -470,7 +469,7 @@ export default class CountryCodes {
             iso2: 'TD',
             iso3: 'TCD',
             isoNo: '148',
-            internet: 'TD'
+            internet: 'TD',
         },
         {
             continent: 'Americas',
@@ -481,7 +480,7 @@ export default class CountryCodes {
             iso2: 'CL',
             iso3: 'CHL',
             isoNo: '152',
-            internet: 'CL'
+            internet: 'CL',
         },
         {
             continent: 'Asia',
@@ -492,7 +491,7 @@ export default class CountryCodes {
             iso2: 'CN',
             iso3: 'CHN',
             isoNo: '156',
-            internet: 'CN'
+            internet: 'CN',
         },
         {
             continent: 'Asia',
@@ -503,7 +502,7 @@ export default class CountryCodes {
             iso2: 'CX',
             iso3: 'CXR',
             isoNo: '162',
-            internet: 'CX'
+            internet: 'CX',
         },
         {
             continent: 'Asia',
@@ -514,7 +513,7 @@ export default class CountryCodes {
             iso2: 'CC',
             iso3: 'CCK',
             isoNo: '166',
-            internet: 'CC'
+            internet: 'CC',
         },
         {
             continent: 'Americas',
@@ -525,7 +524,7 @@ export default class CountryCodes {
             iso2: 'CO',
             iso3: 'COL',
             isoNo: '170',
-            internet: 'CO'
+            internet: 'CO',
         },
         {
             continent: 'Africa',
@@ -536,7 +535,7 @@ export default class CountryCodes {
             iso2: 'KM',
             iso3: 'COM',
             isoNo: '174',
-            internet: 'KM'
+            internet: 'KM',
         },
         {
             continent: 'Africa',
@@ -547,7 +546,7 @@ export default class CountryCodes {
             iso2: 'CG',
             iso3: 'COG',
             isoNo: '178',
-            internet: 'CG'
+            internet: 'CG',
         },
         {
             continent: 'Oceania',
@@ -558,7 +557,7 @@ export default class CountryCodes {
             iso2: 'CK',
             iso3: 'COK',
             isoNo: '184',
-            internet: 'CK'
+            internet: 'CK',
         },
         {
             continent: 'Americas',
@@ -569,7 +568,7 @@ export default class CountryCodes {
             iso2: 'CR',
             iso3: 'CRI',
             isoNo: '188',
-            internet: 'CR'
+            internet: 'CR',
         },
         {
             continent: 'Africa',
@@ -580,7 +579,7 @@ export default class CountryCodes {
             iso2: 'CI',
             iso3: 'CIV',
             isoNo: '384',
-            internet: 'CI'
+            internet: 'CI',
         },
         {
             continent: 'Europe',
@@ -591,7 +590,7 @@ export default class CountryCodes {
             iso2: 'HR',
             iso3: 'HRV',
             isoNo: '191',
-            internet: 'HR'
+            internet: 'HR',
         },
         {
             continent: 'Americas',
@@ -602,7 +601,7 @@ export default class CountryCodes {
             iso2: 'CU',
             iso3: 'CUB',
             isoNo: '192',
-            internet: 'CU'
+            internet: 'CU',
         },
         {
             continent: 'Asia',
@@ -613,7 +612,7 @@ export default class CountryCodes {
             iso2: 'CY',
             iso3: 'CYP',
             isoNo: '196',
-            internet: 'CY'
+            internet: 'CY',
         },
         {
             continent: 'Europe',
@@ -624,7 +623,7 @@ export default class CountryCodes {
             iso2: 'CZ',
             iso3: 'CZE',
             isoNo: '203',
-            internet: 'CZ'
+            internet: 'CZ',
         },
         {
             continent: 'Europe',
@@ -635,7 +634,7 @@ export default class CountryCodes {
             iso2: 'DK',
             iso3: 'DNK',
             isoNo: '208',
-            internet: 'DK'
+            internet: 'DK',
         },
         {
             continent: 'Africa',
@@ -646,7 +645,7 @@ export default class CountryCodes {
             iso2: 'DJ',
             iso3: 'DJI',
             isoNo: '262',
-            internet: 'DJ'
+            internet: 'DJ',
         },
         {
             continent: 'Americas',
@@ -657,7 +656,7 @@ export default class CountryCodes {
             iso2: 'DM',
             iso3: 'DMA',
             isoNo: '212',
-            internet: 'DM'
+            internet: 'DM',
         },
         {
             continent: 'Americas',
@@ -668,7 +667,7 @@ export default class CountryCodes {
             iso2: 'DO',
             iso3: 'DOM',
             isoNo: '214',
-            internet: 'DO'
+            internet: 'DO',
         },
         {
             continent: 'Americas',
@@ -679,7 +678,7 @@ export default class CountryCodes {
             iso2: 'EC',
             iso3: 'ECU',
             isoNo: '218',
-            internet: 'EC'
+            internet: 'EC',
         },
         {
             continent: 'Africa',
@@ -690,7 +689,7 @@ export default class CountryCodes {
             iso2: 'EG',
             iso3: 'EGY',
             isoNo: '818',
-            internet: 'EG'
+            internet: 'EG',
         },
         {
             continent: 'Americas',
@@ -701,7 +700,7 @@ export default class CountryCodes {
             iso2: 'SV',
             iso3: 'SLV',
             isoNo: '222',
-            internet: 'SV'
+            internet: 'SV',
         },
         {
             continent: 'Africa',
@@ -712,7 +711,7 @@ export default class CountryCodes {
             iso2: 'GQ',
             iso3: 'GNQ',
             isoNo: '226',
-            internet: 'GQ'
+            internet: 'GQ',
         },
         {
             continent: 'Africa',
@@ -723,7 +722,7 @@ export default class CountryCodes {
             iso2: 'ER',
             iso3: 'ERI',
             isoNo: '232',
-            internet: 'ER'
+            internet: 'ER',
         },
         {
             continent: 'Europe',
@@ -734,7 +733,7 @@ export default class CountryCodes {
             iso2: 'EE',
             iso3: 'EST',
             isoNo: '233',
-            internet: 'EE'
+            internet: 'EE',
         },
         {
             continent: 'Africa',
@@ -745,7 +744,7 @@ export default class CountryCodes {
             iso2: 'ET',
             iso3: 'ETH',
             isoNo: '231',
-            internet: 'ET'
+            internet: 'ET',
         },
         {
             continent: 'Americas',
@@ -756,7 +755,7 @@ export default class CountryCodes {
             iso2: 'FK',
             iso3: 'FLK',
             isoNo: '238',
-            internet: 'FK'
+            internet: 'FK',
         },
         {
             continent: 'Europe',
@@ -767,7 +766,7 @@ export default class CountryCodes {
             iso2: 'FO',
             iso3: 'FRO',
             isoNo: '234',
-            internet: 'FO'
+            internet: 'FO',
         },
         {
             continent: 'Oceania',
@@ -778,7 +777,7 @@ export default class CountryCodes {
             iso2: 'FJ',
             iso3: 'FJI',
             isoNo: '242',
-            internet: 'FJ'
+            internet: 'FJ',
         },
         {
             continent: 'Europe',
@@ -789,7 +788,7 @@ export default class CountryCodes {
             iso2: 'FI',
             iso3: 'FIN',
             isoNo: '246',
-            internet: 'FI'
+            internet: 'FI',
         },
         {
             continent: 'Europe',
@@ -800,7 +799,7 @@ export default class CountryCodes {
             iso2: 'FR',
             iso3: 'FRA',
             isoNo: '250',
-            internet: 'FR'
+            internet: 'FR',
         },
         {
             continent: 'Americas',
@@ -811,7 +810,7 @@ export default class CountryCodes {
             iso2: 'GF',
             iso3: 'GUF',
             isoNo: '254',
-            internet: 'GF'
+            internet: 'GF',
         },
         {
             continent: 'Oceania',
@@ -822,7 +821,7 @@ export default class CountryCodes {
             iso2: 'PF',
             iso3: 'PYF',
             isoNo: '258',
-            internet: 'PF'
+            internet: 'PF',
         },
         {
             continent: 'Africa',
@@ -833,7 +832,7 @@ export default class CountryCodes {
             iso2: 'GA',
             iso3: 'GAB',
             isoNo: '266',
-            internet: 'GA'
+            internet: 'GA',
         },
         {
             continent: 'Africa',
@@ -844,7 +843,7 @@ export default class CountryCodes {
             iso2: 'GM',
             iso3: 'GMB',
             isoNo: '270',
-            internet: 'GM'
+            internet: 'GM',
         },
         {
             continent: 'Asia',
@@ -855,7 +854,7 @@ export default class CountryCodes {
             iso2: 'GE',
             iso3: 'GEO',
             isoNo: '268',
-            internet: 'GE'
+            internet: 'GE',
         },
         {
             continent: 'Europe',
@@ -866,7 +865,7 @@ export default class CountryCodes {
             iso2: 'DE',
             iso3: 'DEU',
             isoNo: '276',
-            internet: 'DE'
+            internet: 'DE',
         },
         {
             continent: 'Africa',
@@ -877,7 +876,7 @@ export default class CountryCodes {
             iso2: 'GH',
             iso3: 'GHA',
             isoNo: '288',
-            internet: 'GH'
+            internet: 'GH',
         },
         {
             continent: 'Europe',
@@ -888,7 +887,7 @@ export default class CountryCodes {
             iso2: 'GI',
             iso3: 'GIB',
             isoNo: '292',
-            internet: 'GI'
+            internet: 'GI',
         },
         {
             continent: 'Europe',
@@ -899,7 +898,7 @@ export default class CountryCodes {
             iso2: 'GR',
             iso3: 'GRC',
             isoNo: '300',
-            internet: 'GR'
+            internet: 'GR',
         },
         {
             continent: 'Americas',
@@ -910,7 +909,7 @@ export default class CountryCodes {
             iso2: 'GL',
             iso3: 'GRL',
             isoNo: '304',
-            internet: 'GL'
+            internet: 'GL',
         },
         {
             continent: 'Americas',
@@ -921,7 +920,7 @@ export default class CountryCodes {
             iso2: 'GD',
             iso3: 'GRD',
             isoNo: '308',
-            internet: 'GD'
+            internet: 'GD',
         },
         {
             continent: 'Americas',
@@ -932,7 +931,7 @@ export default class CountryCodes {
             iso2: 'GP',
             iso3: 'GLP',
             isoNo: '312',
-            internet: 'GP'
+            internet: 'GP',
         },
         {
             continent: 'Oceania',
@@ -943,7 +942,7 @@ export default class CountryCodes {
             iso2: 'GU',
             iso3: 'GUM',
             isoNo: '316',
-            internet: 'GU'
+            internet: 'GU',
         },
         {
             continent: 'Americas',
@@ -954,7 +953,7 @@ export default class CountryCodes {
             iso2: 'GT',
             iso3: 'GTM',
             isoNo: '320',
-            internet: 'GT'
+            internet: 'GT',
         },
         {
             continent: 'Africa',
@@ -965,7 +964,7 @@ export default class CountryCodes {
             iso2: 'GN',
             iso3: 'GIN',
             isoNo: '324',
-            internet: 'GN'
+            internet: 'GN',
         },
         {
             continent: 'Africa',
@@ -976,7 +975,7 @@ export default class CountryCodes {
             iso2: 'GW',
             iso3: 'GNB',
             isoNo: '624',
-            internet: 'GW'
+            internet: 'GW',
         },
         {
             continent: 'Americas',
@@ -987,7 +986,7 @@ export default class CountryCodes {
             iso2: 'GY',
             iso3: 'GUY',
             isoNo: '328',
-            internet: 'GY'
+            internet: 'GY',
         },
         {
             continent: 'Americas',
@@ -998,7 +997,7 @@ export default class CountryCodes {
             iso2: 'HT',
             iso3: 'HTI',
             isoNo: '332',
-            internet: 'HT'
+            internet: 'HT',
         },
         {
             continent: 'Europe',
@@ -1009,7 +1008,7 @@ export default class CountryCodes {
             iso2: 'VA',
             iso3: 'VAT',
             isoNo: '336',
-            internet: 'VA'
+            internet: 'VA',
         },
         {
             continent: 'Americas',
@@ -1020,7 +1019,7 @@ export default class CountryCodes {
             iso2: 'HN',
             iso3: 'HND',
             isoNo: '340',
-            internet: 'HN'
+            internet: 'HN',
         },
         {
             continent: 'Europe',
@@ -1031,7 +1030,7 @@ export default class CountryCodes {
             iso2: 'HU',
             iso3: 'HUN',
             isoNo: '348',
-            internet: 'HU'
+            internet: 'HU',
         },
         {
             continent: 'Europe',
@@ -1042,7 +1041,7 @@ export default class CountryCodes {
             iso2: 'IS',
             iso3: 'ISL',
             isoNo: '352',
-            internet: 'IS'
+            internet: 'IS',
         },
         {
             continent: 'Asia',
@@ -1053,7 +1052,7 @@ export default class CountryCodes {
             iso2: 'IN',
             iso3: 'IND',
             isoNo: '356',
-            internet: 'IN'
+            internet: 'IN',
         },
         {
             continent: 'Asia',
@@ -1064,7 +1063,7 @@ export default class CountryCodes {
             iso2: 'ID',
             iso3: 'IDN',
             isoNo: '360',
-            internet: 'ID'
+            internet: 'ID',
         },
         {
             continent: 'Asia',
@@ -1075,7 +1074,7 @@ export default class CountryCodes {
             iso2: 'IR',
             iso3: 'IRN',
             isoNo: '364',
-            internet: 'IR'
+            internet: 'IR',
         },
         {
             continent: 'Asia',
@@ -1086,7 +1085,7 @@ export default class CountryCodes {
             iso2: 'IQ',
             iso3: 'IRQ',
             isoNo: '368',
-            internet: 'IQ'
+            internet: 'IQ',
         },
         {
             continent: 'Europe',
@@ -1097,7 +1096,7 @@ export default class CountryCodes {
             iso2: 'IE',
             iso3: 'IRL',
             isoNo: '372',
-            internet: 'IE'
+            internet: 'IE',
         },
         {
             continent: 'Asia',
@@ -1108,7 +1107,7 @@ export default class CountryCodes {
             iso2: 'IL',
             iso3: 'ISR',
             isoNo: '376',
-            internet: 'IL'
+            internet: 'IL',
         },
         {
             continent: 'Europe',
@@ -1119,7 +1118,7 @@ export default class CountryCodes {
             iso2: 'IT',
             iso3: 'ITA',
             isoNo: '380',
-            internet: 'IT'
+            internet: 'IT',
         },
         {
             continent: 'Americas',
@@ -1130,7 +1129,7 @@ export default class CountryCodes {
             iso2: 'JM',
             iso3: 'JAM',
             isoNo: '388',
-            internet: 'JM'
+            internet: 'JM',
         },
         {
             continent: 'Asia',
@@ -1141,7 +1140,7 @@ export default class CountryCodes {
             iso2: 'JP',
             iso3: 'JPN',
             isoNo: '392',
-            internet: 'JP'
+            internet: 'JP',
         },
         {
             continent: 'Asia',
@@ -1152,7 +1151,7 @@ export default class CountryCodes {
             iso2: 'JO',
             iso3: 'JOR',
             isoNo: '400',
-            internet: 'JO'
+            internet: 'JO',
         },
         {
             continent: 'Asia',
@@ -1163,7 +1162,7 @@ export default class CountryCodes {
             iso2: 'KZ',
             iso3: 'KAZ',
             isoNo: '398',
-            internet: 'KZ'
+            internet: 'KZ',
         },
         {
             continent: 'Africa',
@@ -1174,7 +1173,7 @@ export default class CountryCodes {
             iso2: 'KE',
             iso3: 'KEN',
             isoNo: '404',
-            internet: 'KE'
+            internet: 'KE',
         },
         {
             continent: 'Oceania',
@@ -1185,7 +1184,7 @@ export default class CountryCodes {
             iso2: 'KI',
             iso3: 'KIR',
             isoNo: '296',
-            internet: 'KI'
+            internet: 'KI',
         },
         {
             continent: 'Asia',
@@ -1196,7 +1195,7 @@ export default class CountryCodes {
             iso2: 'KP',
             iso3: 'PRK',
             isoNo: '408',
-            internet: 'KP'
+            internet: 'KP',
         },
         {
             continent: 'Asia',
@@ -1207,7 +1206,7 @@ export default class CountryCodes {
             iso2: 'KR',
             iso3: 'KOR',
             isoNo: '410',
-            internet: 'KR'
+            internet: 'KR',
         },
         {
             continent: 'Asia',
@@ -1218,7 +1217,7 @@ export default class CountryCodes {
             iso2: 'KW',
             iso3: 'KWT',
             isoNo: '414',
-            internet: 'KW'
+            internet: 'KW',
         },
         {
             continent: 'Asia',
@@ -1229,7 +1228,7 @@ export default class CountryCodes {
             iso2: 'KG',
             iso3: 'KGZ',
             isoNo: '417',
-            internet: 'KG'
+            internet: 'KG',
         },
         {
             continent: 'Asia',
@@ -1240,7 +1239,7 @@ export default class CountryCodes {
             iso2: 'LA',
             iso3: 'LAO',
             isoNo: '418',
-            internet: 'LA'
+            internet: 'LA',
         },
         {
             continent: 'Europe',
@@ -1251,7 +1250,7 @@ export default class CountryCodes {
             iso2: 'LV',
             iso3: 'LVA',
             isoNo: '428',
-            internet: 'LV'
+            internet: 'LV',
         },
         {
             continent: 'Asia',
@@ -1262,7 +1261,7 @@ export default class CountryCodes {
             iso2: 'LB',
             iso3: 'LBN',
             isoNo: '422',
-            internet: 'LB'
+            internet: 'LB',
         },
         {
             continent: 'Africa',
@@ -1273,7 +1272,7 @@ export default class CountryCodes {
             iso2: 'LS',
             iso3: 'LSO',
             isoNo: '426',
-            internet: 'LS'
+            internet: 'LS',
         },
         {
             continent: 'Africa',
@@ -1284,7 +1283,7 @@ export default class CountryCodes {
             iso2: 'LR',
             iso3: 'LBR',
             isoNo: '430',
-            internet: 'LR'
+            internet: 'LR',
         },
         {
             continent: 'Africa',
@@ -1295,7 +1294,7 @@ export default class CountryCodes {
             iso2: 'LY',
             iso3: 'LBY',
             isoNo: '434',
-            internet: 'LY'
+            internet: 'LY',
         },
         {
             continent: 'Europe',
@@ -1306,7 +1305,7 @@ export default class CountryCodes {
             iso2: 'LI',
             iso3: 'LIE',
             isoNo: '438',
-            internet: 'LI'
+            internet: 'LI',
         },
         {
             continent: 'Europe',
@@ -1317,7 +1316,7 @@ export default class CountryCodes {
             iso2: 'LT',
             iso3: 'LTU',
             isoNo: '440',
-            internet: 'LT'
+            internet: 'LT',
         },
         {
             continent: 'Europe',
@@ -1328,7 +1327,7 @@ export default class CountryCodes {
             iso2: 'LU',
             iso3: 'LUX',
             isoNo: '442',
-            internet: 'LU'
+            internet: 'LU',
         },
         {
             continent: 'Europe',
@@ -1339,7 +1338,7 @@ export default class CountryCodes {
             iso2: 'MK',
             iso3: 'MKD',
             isoNo: '807',
-            internet: 'MK'
+            internet: 'MK',
         },
         {
             continent: 'Africa',
@@ -1350,7 +1349,7 @@ export default class CountryCodes {
             iso2: 'MG',
             iso3: 'MDG',
             isoNo: '450',
-            internet: 'MG'
+            internet: 'MG',
         },
         {
             continent: 'Africa',
@@ -1361,7 +1360,7 @@ export default class CountryCodes {
             iso2: 'MW',
             iso3: 'MWI',
             isoNo: '454',
-            internet: 'MW'
+            internet: 'MW',
         },
         {
             continent: 'Asia',
@@ -1372,7 +1371,7 @@ export default class CountryCodes {
             iso2: 'MY',
             iso3: 'MYS',
             isoNo: '458',
-            internet: 'MY'
+            internet: 'MY',
         },
         {
             continent: 'Asia',
@@ -1383,7 +1382,7 @@ export default class CountryCodes {
             iso2: 'MV',
             iso3: 'MDV',
             isoNo: '462',
-            internet: 'MV'
+            internet: 'MV',
         },
         {
             continent: 'Africa',
@@ -1394,7 +1393,7 @@ export default class CountryCodes {
             iso2: 'ML',
             iso3: 'MLI',
             isoNo: '466',
-            internet: 'ML'
+            internet: 'ML',
         },
         {
             continent: 'Europe',
@@ -1405,7 +1404,7 @@ export default class CountryCodes {
             iso2: 'MT',
             iso3: 'MLT',
             isoNo: '470',
-            internet: 'MT'
+            internet: 'MT',
         },
         {
             continent: 'Europe',
@@ -1416,7 +1415,7 @@ export default class CountryCodes {
             iso2: 'IM',
             iso3: 'IMN',
             isoNo: '833',
-            internet: 'IM'
+            internet: 'IM',
         },
         {
             continent: 'Oceania',
@@ -1427,7 +1426,7 @@ export default class CountryCodes {
             iso2: 'MH',
             iso3: 'MHL',
             isoNo: '584',
-            internet: 'MH'
+            internet: 'MH',
         },
         {
             continent: 'Americas',
@@ -1438,7 +1437,7 @@ export default class CountryCodes {
             iso2: 'MQ',
             iso3: 'MTQ',
             isoNo: '474',
-            internet: 'MQ'
+            internet: 'MQ',
         },
         {
             continent: 'Africa',
@@ -1449,7 +1448,7 @@ export default class CountryCodes {
             iso2: 'MR',
             iso3: 'MRT',
             isoNo: '478',
-            internet: 'MR'
+            internet: 'MR',
         },
         {
             continent: 'Africa',
@@ -1460,7 +1459,7 @@ export default class CountryCodes {
             iso2: 'MU',
             iso3: 'MUS',
             isoNo: '480',
-            internet: 'MU'
+            internet: 'MU',
         },
         {
             continent: 'Africa',
@@ -1471,7 +1470,7 @@ export default class CountryCodes {
             iso2: 'YT',
             iso3: 'MYT',
             isoNo: '175',
-            internet: 'YT'
+            internet: 'YT',
         },
         {
             continent: 'Americas',
@@ -1482,7 +1481,7 @@ export default class CountryCodes {
             iso2: 'MX',
             iso3: 'MEX',
             isoNo: '484',
-            internet: 'MX'
+            internet: 'MX',
         },
         {
             continent: 'Oceania',
@@ -1493,7 +1492,7 @@ export default class CountryCodes {
             iso2: 'FM',
             iso3: 'FSM',
             isoNo: '583',
-            internet: 'FM'
+            internet: 'FM',
         },
         {
             continent: 'Europe',
@@ -1504,7 +1503,7 @@ export default class CountryCodes {
             iso2: 'MD',
             iso3: 'MDA',
             isoNo: '498',
-            internet: 'MD'
+            internet: 'MD',
         },
         {
             continent: 'Europe',
@@ -1515,7 +1514,7 @@ export default class CountryCodes {
             iso2: 'MC',
             iso3: 'MCO',
             isoNo: '492',
-            internet: 'MC'
+            internet: 'MC',
         },
         {
             continent: 'Asia',
@@ -1526,7 +1525,7 @@ export default class CountryCodes {
             iso2: 'MN',
             iso3: 'MNG',
             isoNo: '496',
-            internet: 'MN'
+            internet: 'MN',
         },
         {
             continent: 'Americas',
@@ -1537,7 +1536,7 @@ export default class CountryCodes {
             iso2: 'MS',
             iso3: 'MSR',
             isoNo: '500',
-            internet: 'MS'
+            internet: 'MS',
         },
         {
             continent: 'Africa',
@@ -1548,7 +1547,7 @@ export default class CountryCodes {
             iso2: 'MA',
             iso3: 'MAR',
             isoNo: '504',
-            internet: 'MA'
+            internet: 'MA',
         },
         {
             continent: 'Africa',
@@ -1559,7 +1558,7 @@ export default class CountryCodes {
             iso2: 'MZ',
             iso3: 'MOZ',
             isoNo: '508',
-            internet: 'MZ'
+            internet: 'MZ',
         },
         {
             continent: 'Asia',
@@ -1570,7 +1569,7 @@ export default class CountryCodes {
             iso2: 'MM',
             iso3: 'MMR',
             isoNo: '104',
-            internet: 'MM'
+            internet: 'MM',
         },
         {
             continent: 'Africa',
@@ -1581,7 +1580,7 @@ export default class CountryCodes {
             iso2: 'NA',
             iso3: 'NAM',
             isoNo: '516',
-            internet: 'NA'
+            internet: 'NA',
         },
         {
             continent: 'Oceania',
@@ -1592,7 +1591,7 @@ export default class CountryCodes {
             iso2: 'NR',
             iso3: 'NRU',
             isoNo: '520',
-            internet: 'NR'
+            internet: 'NR',
         },
         {
             continent: 'Asia',
@@ -1603,7 +1602,7 @@ export default class CountryCodes {
             iso2: 'NP',
             iso3: 'NPL',
             isoNo: '524',
-            internet: 'NP'
+            internet: 'NP',
         },
         {
             continent: 'Europe',
@@ -1614,7 +1613,7 @@ export default class CountryCodes {
             iso2: 'NL',
             iso3: 'NLD',
             isoNo: '528',
-            internet: 'NL'
+            internet: 'NL',
         },
         {
             continent: 'Americas',
@@ -1625,7 +1624,7 @@ export default class CountryCodes {
             iso2: 'AN',
             iso3: 'ANT',
             isoNo: '530',
-            internet: 'AN'
+            internet: 'AN',
         },
         {
             continent: 'Oceania',
@@ -1636,7 +1635,7 @@ export default class CountryCodes {
             iso2: 'NC',
             iso3: 'NCL',
             isoNo: '540',
-            internet: 'NC'
+            internet: 'NC',
         },
         {
             continent: 'Oceania',
@@ -1647,7 +1646,7 @@ export default class CountryCodes {
             iso2: 'NZ',
             iso3: 'NZL',
             isoNo: '554',
-            internet: 'NZ'
+            internet: 'NZ',
         },
         {
             continent: 'Americas',
@@ -1658,7 +1657,7 @@ export default class CountryCodes {
             iso2: 'NI',
             iso3: 'NIC',
             isoNo: '558',
-            internet: 'NI'
+            internet: 'NI',
         },
         {
             continent: 'Africa',
@@ -1669,7 +1668,7 @@ export default class CountryCodes {
             iso2: 'NE',
             iso3: 'NER',
             isoNo: '562',
-            internet: 'NE'
+            internet: 'NE',
         },
         {
             continent: 'Africa',
@@ -1680,7 +1679,7 @@ export default class CountryCodes {
             iso2: 'NG',
             iso3: 'NGA',
             isoNo: '566',
-            internet: 'NG'
+            internet: 'NG',
         },
         {
             continent: 'Oceania',
@@ -1691,7 +1690,7 @@ export default class CountryCodes {
             iso2: 'NU',
             iso3: 'NIU',
             isoNo: '570',
-            internet: 'NU'
+            internet: 'NU',
         },
         {
             continent: 'Oceania',
@@ -1702,7 +1701,7 @@ export default class CountryCodes {
             iso2: 'NF',
             iso3: 'NFK',
             isoNo: '574',
-            internet: 'NF'
+            internet: 'NF',
         },
         {
             continent: 'Oceania',
@@ -1713,7 +1712,7 @@ export default class CountryCodes {
             iso2: 'MP',
             iso3: 'MNP',
             isoNo: '580',
-            internet: 'MP'
+            internet: 'MP',
         },
         {
             continent: 'Europe',
@@ -1724,7 +1723,7 @@ export default class CountryCodes {
             iso2: 'NO',
             iso3: 'NOR',
             isoNo: '578',
-            internet: 'NO'
+            internet: 'NO',
         },
         {
             continent: 'Asia',
@@ -1735,7 +1734,7 @@ export default class CountryCodes {
             iso2: 'OM',
             iso3: 'OMN',
             isoNo: '512',
-            internet: 'OM'
+            internet: 'OM',
         },
         {
             continent: 'Asia',
@@ -1746,7 +1745,7 @@ export default class CountryCodes {
             iso2: 'PK',
             iso3: 'PAK',
             isoNo: '586',
-            internet: 'PK'
+            internet: 'PK',
         },
         {
             continent: 'Oceania',
@@ -1757,7 +1756,7 @@ export default class CountryCodes {
             iso2: 'PW',
             iso3: 'PLW',
             isoNo: '585',
-            internet: 'PW'
+            internet: 'PW',
         },
         {
             continent: 'Asia',
@@ -1768,7 +1767,7 @@ export default class CountryCodes {
             iso2: 'PS',
             iso3: 'PSE',
             isoNo: '275',
-            internet: 'PS'
+            internet: 'PS',
         },
         {
             continent: 'Americas',
@@ -1779,7 +1778,7 @@ export default class CountryCodes {
             iso2: 'PA',
             iso3: 'PAN',
             isoNo: '591',
-            internet: 'PA'
+            internet: 'PA',
         },
         {
             continent: 'Oceania',
@@ -1790,7 +1789,7 @@ export default class CountryCodes {
             iso2: 'PG',
             iso3: 'PNG',
             isoNo: '598',
-            internet: 'PG'
+            internet: 'PG',
         },
         {
             continent: 'Americas',
@@ -1801,7 +1800,7 @@ export default class CountryCodes {
             iso2: 'PY',
             iso3: 'PRY',
             isoNo: '600',
-            internet: 'PY'
+            internet: 'PY',
         },
         {
             continent: 'Americas',
@@ -1812,7 +1811,7 @@ export default class CountryCodes {
             iso2: 'PE',
             iso3: 'PER',
             isoNo: '604',
-            internet: 'PE'
+            internet: 'PE',
         },
         {
             continent: 'Asia',
@@ -1823,7 +1822,7 @@ export default class CountryCodes {
             iso2: 'PH',
             iso3: 'PHL',
             isoNo: '608',
-            internet: 'PH'
+            internet: 'PH',
         },
         {
             continent: 'Oceania',
@@ -1834,7 +1833,7 @@ export default class CountryCodes {
             iso2: 'PN',
             iso3: 'PCN',
             isoNo: '612',
-            internet: 'PN'
+            internet: 'PN',
         },
         {
             continent: 'Europe',
@@ -1845,7 +1844,7 @@ export default class CountryCodes {
             iso2: 'PL',
             iso3: 'POL',
             isoNo: '616',
-            internet: 'PL'
+            internet: 'PL',
         },
         {
             continent: 'Europe',
@@ -1856,7 +1855,7 @@ export default class CountryCodes {
             iso2: 'PT',
             iso3: 'PRT',
             isoNo: '620',
-            internet: 'PT'
+            internet: 'PT',
         },
         {
             continent: 'Americas',
@@ -1867,7 +1866,7 @@ export default class CountryCodes {
             iso2: 'PR',
             iso3: 'PRI',
             isoNo: '630',
-            internet: 'PR'
+            internet: 'PR',
         },
         {
             continent: 'Asia',
@@ -1878,7 +1877,7 @@ export default class CountryCodes {
             iso2: 'QA',
             iso3: 'QAT',
             isoNo: '634',
-            internet: 'QA'
+            internet: 'QA',
         },
         {
             continent: 'Africa',
@@ -1889,7 +1888,7 @@ export default class CountryCodes {
             iso2: 'RE',
             iso3: 'REU',
             isoNo: '638',
-            internet: 'RE'
+            internet: 'RE',
         },
         {
             continent: 'Europe',
@@ -1900,7 +1899,7 @@ export default class CountryCodes {
             iso2: 'RO',
             iso3: 'ROU',
             isoNo: '642',
-            internet: 'RO'
+            internet: 'RO',
         },
         {
             continent: 'Asia',
@@ -1911,7 +1910,7 @@ export default class CountryCodes {
             iso2: 'RU',
             iso3: 'RUS',
             isoNo: '643',
-            internet: 'RU'
+            internet: 'RU',
         },
         {
             continent: 'Africa',
@@ -1922,7 +1921,7 @@ export default class CountryCodes {
             iso2: 'RW',
             iso3: 'RWA',
             isoNo: '646',
-            internet: 'RW'
+            internet: 'RW',
         },
         {
             continent: 'Americas',
@@ -1933,7 +1932,7 @@ export default class CountryCodes {
             iso2: 'KN',
             iso3: 'KNA',
             isoNo: '659',
-            internet: 'KN'
+            internet: 'KN',
         },
         {
             continent: 'Americas',
@@ -1944,7 +1943,7 @@ export default class CountryCodes {
             iso2: 'LC',
             iso3: 'LCA',
             isoNo: '662',
-            internet: 'LC'
+            internet: 'LC',
         },
         {
             continent: 'Americas',
@@ -1955,7 +1954,7 @@ export default class CountryCodes {
             iso2: 'PM',
             iso3: 'SPM',
             isoNo: '666',
-            internet: 'PM'
+            internet: 'PM',
         },
         {
             continent: 'Americas',
@@ -1966,7 +1965,7 @@ export default class CountryCodes {
             iso2: 'VC',
             iso3: 'VCT',
             isoNo: '670',
-            internet: 'VC'
+            internet: 'VC',
         },
         {
             continent: 'Europe',
@@ -1977,7 +1976,7 @@ export default class CountryCodes {
             iso2: 'SM',
             iso3: 'SMR',
             isoNo: '674',
-            internet: 'SM'
+            internet: 'SM',
         },
         {
             continent: 'Africa',
@@ -1988,7 +1987,7 @@ export default class CountryCodes {
             iso2: 'ST',
             iso3: 'STP',
             isoNo: '678',
-            internet: 'ST'
+            internet: 'ST',
         },
         {
             continent: 'Asia',
@@ -1999,7 +1998,7 @@ export default class CountryCodes {
             iso2: 'SA',
             iso3: 'SAU',
             isoNo: '682',
-            internet: 'SA'
+            internet: 'SA',
         },
         {
             continent: 'Africa',
@@ -2010,7 +2009,7 @@ export default class CountryCodes {
             iso2: 'SN',
             iso3: 'SEN',
             isoNo: '686',
-            internet: 'SN'
+            internet: 'SN',
         },
         {
             continent: 'Africa',
@@ -2021,7 +2020,7 @@ export default class CountryCodes {
             iso2: 'SC',
             iso3: 'SYC',
             isoNo: '690',
-            internet: 'SC'
+            internet: 'SC',
         },
         {
             continent: 'Africa',
@@ -2032,7 +2031,7 @@ export default class CountryCodes {
             iso2: 'SL',
             iso3: 'SLE',
             isoNo: '694',
-            internet: 'SL'
+            internet: 'SL',
         },
         {
             continent: 'Asia',
@@ -2043,7 +2042,7 @@ export default class CountryCodes {
             iso2: 'SG',
             iso3: 'SGP',
             isoNo: '702',
-            internet: 'SG'
+            internet: 'SG',
         },
         {
             continent: 'Europe',
@@ -2054,7 +2053,7 @@ export default class CountryCodes {
             iso2: 'SK',
             iso3: 'SVK',
             isoNo: '703',
-            internet: 'SK'
+            internet: 'SK',
         },
         {
             continent: 'Europe',
@@ -2065,7 +2064,7 @@ export default class CountryCodes {
             iso2: 'SI',
             iso3: 'SVN',
             isoNo: '705',
-            internet: 'SI'
+            internet: 'SI',
         },
         {
             continent: 'Oceania',
@@ -2076,7 +2075,7 @@ export default class CountryCodes {
             iso2: 'SB',
             iso3: 'SLB',
             isoNo: '090',
-            internet: 'SB'
+            internet: 'SB',
         },
         {
             continent: 'Africa',
@@ -2087,7 +2086,7 @@ export default class CountryCodes {
             iso2: 'SO',
             iso3: 'SOM',
             isoNo: '706',
-            internet: 'SO'
+            internet: 'SO',
         },
         {
             continent: 'Africa',
@@ -2098,7 +2097,7 @@ export default class CountryCodes {
             iso2: 'ZA',
             iso3: 'ZAF',
             isoNo: '710',
-            internet: 'ZA'
+            internet: 'ZA',
         },
         {
             continent: 'Europe',
@@ -2109,7 +2108,7 @@ export default class CountryCodes {
             iso2: 'ES',
             iso3: 'ESP',
             isoNo: '724',
-            internet: 'ES'
+            internet: 'ES',
         },
         {
             continent: 'Asia',
@@ -2120,7 +2119,7 @@ export default class CountryCodes {
             iso2: 'LK',
             iso3: 'LKA',
             isoNo: '144',
-            internet: 'LK'
+            internet: 'LK',
         },
         {
             continent: 'Africa',
@@ -2131,7 +2130,7 @@ export default class CountryCodes {
             iso2: 'SD',
             iso3: 'SDN',
             isoNo: '729',
-            internet: 'SD'
+            internet: 'SD',
         },
         {
             continent: 'Americas',
@@ -2142,7 +2141,7 @@ export default class CountryCodes {
             iso2: 'SR',
             iso3: 'SUR',
             isoNo: '740',
-            internet: 'SR'
+            internet: 'SR',
         },
         {
             continent: 'Europe',
@@ -2153,7 +2152,7 @@ export default class CountryCodes {
             iso2: 'SJ',
             iso3: 'SJM',
             isoNo: '744',
-            internet: 'SJ'
+            internet: 'SJ',
         },
         {
             continent: 'Africa',
@@ -2164,7 +2163,7 @@ export default class CountryCodes {
             iso2: 'SZ',
             iso3: 'SWZ',
             isoNo: '748',
-            internet: 'SZ'
+            internet: 'SZ',
         },
         {
             continent: 'Europe',
@@ -2175,7 +2174,7 @@ export default class CountryCodes {
             iso2: 'SE',
             iso3: 'SWE',
             isoNo: '752',
-            internet: 'SE'
+            internet: 'SE',
         },
         {
             continent: 'Europe',
@@ -2186,7 +2185,7 @@ export default class CountryCodes {
             iso2: 'CH',
             iso3: 'CHE',
             isoNo: '756',
-            internet: 'CH'
+            internet: 'CH',
         },
         {
             continent: 'Asia',
@@ -2197,7 +2196,7 @@ export default class CountryCodes {
             iso2: 'SY',
             iso3: 'SYR',
             isoNo: '760',
-            internet: 'SY'
+            internet: 'SY',
         },
         {
             continent: 'Asia',
@@ -2208,7 +2207,7 @@ export default class CountryCodes {
             iso2: 'TW',
             iso3: 'TWN',
             isoNo: '158',
-            internet: 'TW'
+            internet: 'TW',
         },
         {
             continent: 'Asia',
@@ -2219,7 +2218,7 @@ export default class CountryCodes {
             iso2: 'TJ',
             iso3: 'TJK',
             isoNo: '762',
-            internet: 'TJ'
+            internet: 'TJ',
         },
         {
             continent: 'Africa',
@@ -2230,7 +2229,7 @@ export default class CountryCodes {
             iso2: 'TZ',
             iso3: 'TZA',
             isoNo: '834',
-            internet: 'TZ'
+            internet: 'TZ',
         },
         {
             continent: 'Asia',
@@ -2241,7 +2240,7 @@ export default class CountryCodes {
             iso2: 'TH',
             iso3: 'THA',
             isoNo: '764',
-            internet: 'TH'
+            internet: 'TH',
         },
         {
             continent: 'Africa',
@@ -2252,7 +2251,7 @@ export default class CountryCodes {
             iso2: 'TG',
             iso3: 'TGO',
             isoNo: '768',
-            internet: 'TG'
+            internet: 'TG',
         },
         {
             continent: 'Oceania',
@@ -2263,7 +2262,7 @@ export default class CountryCodes {
             iso2: 'TK',
             iso3: 'TKL',
             isoNo: '772',
-            internet: 'TK'
+            internet: 'TK',
         },
         {
             continent: 'Oceania',
@@ -2274,7 +2273,7 @@ export default class CountryCodes {
             iso2: 'TO',
             iso3: 'TON',
             isoNo: '776',
-            internet: 'TO'
+            internet: 'TO',
         },
         {
             continent: 'Americas',
@@ -2285,7 +2284,7 @@ export default class CountryCodes {
             iso2: 'TT',
             iso3: 'TTO',
             isoNo: '780',
-            internet: 'TT'
+            internet: 'TT',
         },
         {
             continent: 'Africa',
@@ -2296,7 +2295,7 @@ export default class CountryCodes {
             iso2: 'TN',
             iso3: 'TUN',
             isoNo: '788',
-            internet: 'TN'
+            internet: 'TN',
         },
         {
             continent: 'Asia',
@@ -2307,7 +2306,7 @@ export default class CountryCodes {
             iso2: 'TR',
             iso3: 'TUR',
             isoNo: '792',
-            internet: 'TR'
+            internet: 'TR',
         },
         {
             continent: 'Asia',
@@ -2318,7 +2317,7 @@ export default class CountryCodes {
             iso2: 'TM',
             iso3: 'TKM',
             isoNo: '795',
-            internet: 'TM'
+            internet: 'TM',
         },
         {
             continent: 'Americas',
@@ -2329,7 +2328,7 @@ export default class CountryCodes {
             iso2: 'TC',
             iso3: 'TCA',
             isoNo: '796',
-            internet: 'TC'
+            internet: 'TC',
         },
         {
             continent: 'Oceania',
@@ -2340,7 +2339,7 @@ export default class CountryCodes {
             iso2: 'TV',
             iso3: 'TUV',
             isoNo: '798',
-            internet: 'TV'
+            internet: 'TV',
         },
         {
             continent: 'Africa',
@@ -2351,7 +2350,7 @@ export default class CountryCodes {
             iso2: 'UG',
             iso3: 'UGA',
             isoNo: '800',
-            internet: 'UG'
+            internet: 'UG',
         },
         {
             continent: 'Europe',
@@ -2362,7 +2361,7 @@ export default class CountryCodes {
             iso2: 'UA',
             iso3: 'UKR',
             isoNo: '804',
-            internet: 'UA'
+            internet: 'UA',
         },
         {
             continent: 'Asia',
@@ -2373,7 +2372,7 @@ export default class CountryCodes {
             iso2: 'AE',
             iso3: 'ARE',
             isoNo: '784',
-            internet: 'AE'
+            internet: 'AE',
         },
         {
             continent: 'Europe',
@@ -2384,7 +2383,7 @@ export default class CountryCodes {
             iso2: 'GB',
             iso3: 'GBR',
             isoNo: '826',
-            internet: 'UK'
+            internet: 'UK',
         },
         {
             continent: 'Americas',
@@ -2395,7 +2394,7 @@ export default class CountryCodes {
             iso2: 'US',
             iso3: 'USA',
             isoNo: '840',
-            internet: 'US'
+            internet: 'US',
         },
         {
             continent: 'Americas',
@@ -2406,7 +2405,7 @@ export default class CountryCodes {
             iso2: 'UM',
             iso3: 'UMI',
             isoNo: '581',
-            internet: 'US'
+            internet: 'US',
         },
         {
             continent: 'Americas',
@@ -2417,7 +2416,7 @@ export default class CountryCodes {
             iso2: 'UY',
             iso3: 'URY',
             isoNo: '858',
-            internet: 'UY'
+            internet: 'UY',
         },
         {
             continent: 'Asia',
@@ -2428,7 +2427,7 @@ export default class CountryCodes {
             iso2: 'UZ',
             iso3: 'UZB',
             isoNo: '860',
-            internet: 'UZ'
+            internet: 'UZ',
         },
         {
             continent: 'Oceania',
@@ -2439,7 +2438,7 @@ export default class CountryCodes {
             iso2: 'VU',
             iso3: 'VUT',
             isoNo: '548',
-            internet: 'VU'
+            internet: 'VU',
         },
         {
             continent: 'Americas',
@@ -2450,7 +2449,7 @@ export default class CountryCodes {
             iso2: 'VE',
             iso3: 'VEN',
             isoNo: '862',
-            internet: 'UE'
+            internet: 'UE',
         },
         {
             continent: 'Asia',
@@ -2461,7 +2460,7 @@ export default class CountryCodes {
             iso2: 'VN',
             iso3: 'VNM',
             isoNo: '704',
-            internet: 'VN'
+            internet: 'VN',
         },
         {
             continent: 'Americas',
@@ -2472,7 +2471,7 @@ export default class CountryCodes {
             iso2: 'VI',
             iso3: 'VIR',
             isoNo: '850',
-            internet: 'VI'
+            internet: 'VI',
         },
         {
             continent: 'Oceania',
@@ -2483,7 +2482,7 @@ export default class CountryCodes {
             iso2: 'WF',
             iso3: 'WLF',
             isoNo: '876',
-            internet: 'WF'
+            internet: 'WF',
         },
         {
             continent: 'Africa',
@@ -2494,7 +2493,7 @@ export default class CountryCodes {
             iso2: 'EH',
             iso3: 'ESH',
             isoNo: '732',
-            internet: 'EH'
+            internet: 'EH',
         },
         {
             continent: 'Oceania',
@@ -2505,7 +2504,7 @@ export default class CountryCodes {
             iso2: 'WS',
             iso3: 'WSM',
             isoNo: '882',
-            internet: 'WS'
+            internet: 'WS',
         },
         {
             continent: 'Asia',
@@ -2516,7 +2515,7 @@ export default class CountryCodes {
             iso2: 'YE',
             iso3: 'YEM',
             isoNo: '887',
-            internet: 'YE'
+            internet: 'YE',
         },
         {
             continent: 'Africa',
@@ -2527,7 +2526,7 @@ export default class CountryCodes {
             iso2: 'CD',
             iso3: 'COD',
             isoNo: '180',
-            internet: 'ZR'
+            internet: 'ZR',
         },
         {
             continent: 'Africa',
@@ -2538,7 +2537,7 @@ export default class CountryCodes {
             iso2: 'ZM',
             iso3: 'ZMB',
             isoNo: '894',
-            internet: 'ZM'
+            internet: 'ZM',
         },
         {
             continent: 'Africa',
@@ -2549,7 +2548,7 @@ export default class CountryCodes {
             iso2: 'ZW',
             iso3: 'ZWE',
             isoNo: '716',
-            internet: 'ZW'
+            internet: 'ZW',
         },
         {
             continent: 'Asia',
@@ -2560,7 +2559,7 @@ export default class CountryCodes {
             iso2: 'HK',
             iso3: 'HKG',
             isoNo: '344',
-            internet: 'HK'
+            internet: 'HK',
         },
         {
             continent: 'Asia',
@@ -2571,7 +2570,7 @@ export default class CountryCodes {
             iso2: 'MO',
             iso3: 'MAC',
             isoNo: '446',
-            internet: 'MO'
+            internet: 'MO',
         },
         {
             continent: 'Antarctica',
@@ -2582,7 +2581,7 @@ export default class CountryCodes {
             iso2: 'AQ',
             iso3: 'ATA',
             isoNo: '010',
-            internet: 'AQ'
+            internet: 'AQ',
         },
         {
             continent: 'Atlantic Ocean',
@@ -2593,7 +2592,7 @@ export default class CountryCodes {
             iso2: 'BV',
             iso3: 'BVT',
             isoNo: '074',
-            internet: 'BV'
+            internet: 'BV',
         },
         {
             continent: 'Asia',
@@ -2604,7 +2603,7 @@ export default class CountryCodes {
             iso2: 'IO',
             iso3: 'IOT',
             isoNo: '086',
-            internet: 'IO'
+            internet: 'IO',
         },
         {
             continent: 'Indian Ocean',
@@ -2615,7 +2614,7 @@ export default class CountryCodes {
             iso2: 'TF',
             iso3: 'ATF',
             isoNo: '260',
-            internet: '--'
+            internet: '--',
         },
         {
             continent: 'Indian Ocean',
@@ -2626,7 +2625,7 @@ export default class CountryCodes {
             iso2: 'HM',
             iso3: 'HMD',
             isoNo: '334',
-            internet: 'HM'
+            internet: 'HM',
         },
         {
             continent: 'Atlantic Ocean',
@@ -2637,7 +2636,7 @@ export default class CountryCodes {
             iso2: 'SH',
             iso3: 'SHN',
             isoNo: '654',
-            internet: 'SH'
+            internet: 'SH',
         },
         {
             continent: 'Atlantic Ocean',
@@ -2648,7 +2647,7 @@ export default class CountryCodes {
             iso2: 'GS',
             iso3: 'SGS',
             isoNo: '239',
-            internet: 'GS'
+            internet: 'GS',
         },
         {
             continent: 'Europe',
@@ -2659,7 +2658,7 @@ export default class CountryCodes {
             iso2: 'GG',
             iso3: 'GGY',
             isoNo: '831',
-            internet: 'GG'
+            internet: 'GG',
         },
         {
             continent: 'Europe',
@@ -2670,7 +2669,7 @@ export default class CountryCodes {
             iso2: 'RS',
             iso3: 'SRB',
             isoNo: '688',
-            internet: 'RS'
+            internet: 'RS',
         },
         {
             continent: 'Americas',
@@ -2681,7 +2680,7 @@ export default class CountryCodes {
             iso2: 'BL',
             iso3: 'BLM',
             isoNo: '652',
-            internet: 'BL'
+            internet: 'BL',
         },
         {
             continent: 'Europe',
@@ -2692,7 +2691,7 @@ export default class CountryCodes {
             iso2: 'ME',
             iso3: 'MNE',
             isoNo: '499',
-            internet: 'ME'
+            internet: 'ME',
         },
         {
             continent: 'Europe',
@@ -2703,7 +2702,7 @@ export default class CountryCodes {
             iso2: 'JE',
             iso3: 'JEY',
             isoNo: '832',
-            internet: 'JE'
+            internet: 'JE',
         },
         {
             continent: 'Americas',
@@ -2714,7 +2713,7 @@ export default class CountryCodes {
             iso2: 'CW',
             iso3: 'CUW',
             isoNo: '531',
-            internet: 'CW'
+            internet: 'CW',
         },
         {
             continent: 'Americas',
@@ -2725,7 +2724,7 @@ export default class CountryCodes {
             iso2: 'MF',
             iso3: 'MAF',
             isoNo: '663',
-            internet: 'MF'
+            internet: 'MF',
         },
         {
             continent: 'Americas',
@@ -2736,7 +2735,7 @@ export default class CountryCodes {
             iso2: 'SX',
             iso3: 'SXM',
             isoNo: '534',
-            internet: 'SX'
+            internet: 'SX',
         },
         {
             continent: 'Asia',
@@ -2747,7 +2746,7 @@ export default class CountryCodes {
             iso2: 'TL',
             iso3: 'TLS',
             isoNo: '626',
-            internet: 'TL'
+            internet: 'TL',
         },
         {
             continent: 'Africa',
@@ -2758,7 +2757,7 @@ export default class CountryCodes {
             iso2: 'SS',
             iso3: 'SSD',
             isoNo: '728',
-            internet: 'SS'
+            internet: 'SS',
         },
         {
             continent: 'Europe',
@@ -2769,7 +2768,7 @@ export default class CountryCodes {
             iso2: 'AX',
             iso3: 'ALA',
             isoNo: '248',
-            internet: 'AX'
+            internet: 'AX',
         },
         {
             continent: 'Americas',
@@ -2780,7 +2779,7 @@ export default class CountryCodes {
             iso2: 'BQ',
             iso3: 'BES',
             isoNo: '535',
-            internet: 'BQ'
+            internet: 'BQ',
         },
         // {
         //     continent: 'Europe',
@@ -2793,7 +2792,7 @@ export default class CountryCodes {
         //     isoNo: null,
         //     internet: 'XK'
         // },
-    ]
+    ];
 
     /**
      * Search for a country by FIPS code
@@ -2806,7 +2805,7 @@ export default class CountryCodes {
      * const country = countryCodes.byFips('US');
      */
     public byFips(code: string): CountryResponse {
-        return this.search('fips', code.toUpperCase())
+        return this.search('fips', code.toUpperCase());
     }
 
     /**
@@ -2831,12 +2830,12 @@ export default class CountryCodes {
      * const country = countryCodes.byIso('USA', true);
      *
      */
-    public byIso(code: string | number, safeMode: boolean = false): CountryResponse {
+    public byIso(code: string | number, safeMode = false): CountryResponse {
         if (typeof code === 'number') {
-            return this.search('isoNo', ("00" + code.toString()).slice(-3));
+            return this.search('isoNo', ('00' + code.toString()).slice(-3));
         }
         if (!isNaN(Number(code)) && code.length === 3) {
-            return this.search('isoNo', ("00" + code).slice(-3));
+            return this.search('isoNo', ('00' + code).slice(-3));
         }
 
         if (code.length === 2) {
@@ -2865,7 +2864,7 @@ export default class CountryCodes {
      * const country = countryCodes.byInternet('US');
      */
     public byInternet(code: string): CountryResponse {
-        return this.search('internet', code.toUpperCase())
+        return this.search('internet', code.toUpperCase());
     }
 
     /**
@@ -2884,7 +2883,7 @@ export default class CountryCodes {
      *
      * const countryWithCaseInsensitive = countryCodes.byCountry('united states', true);
      */
-    public byCountry(country: string, ignoreCase: boolean = false): CountryResponse {
+    public byCountry(country: string, ignoreCase = false): CountryResponse {
         return this.search('country', country, ignoreCase);
     }
 
@@ -2896,11 +2895,10 @@ export default class CountryCodes {
      * @param ignoreCase - Enable case-insensitive search
      * @private
      */
-    private search<K extends keyof Country>(field: K, code: Country[K], ignoreCase: boolean = false): CountryResponse {
+    private search<K extends keyof Country>(field: K, code: Country[K], ignoreCase = false): CountryResponse {
         if (!ignoreCase) {
-            return this.countryList.find((c) => c[field] === code) || null;
+            return this.countryList.find(c => c[field] === code) || null;
         }
-        return this.countryList.find((c) => c[field].toLowerCase().trim() === code.toLowerCase().trim()) || null;
+        return this.countryList.find(c => c[field].toLowerCase().trim() === code.toLowerCase().trim()) || null;
     }
-
 }

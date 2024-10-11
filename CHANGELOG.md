@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/apollo-tech-dev/country-codes/compare/v1.0.1...v1.0.2) (2024-10-11)
+
+
+### Bug Fixes
+
+* move to org repo ([299f4b2](https://github.com/apollo-tech-dev/country-codes/commit/299f4b27665d0b038eee1c3cc370c44cf80b1f1d))
+
 ## [1.0.1](https://github.com/apollo-tech-dev/country-codes/compare/v1.0.0...v1.0.1) (2024-10-11)
 
 

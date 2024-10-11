@@ -1,14 +1,21 @@
+![NPM Version](https://img.shields.io/npm/v/%40apollo-tech%2Fcountry-codes)
+![GitHub License](https://img.shields.io/github/license/steven-t-h/country-codes)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/steven-t-h/country-codes/ci.yml)
+
 # Country Codes
 
-A simple NPM package to search for country information based on various codes and names. This package provides methods to 
+A simple NPM package to search for country information based on various codes and names. This package provides methods
+to
 search for countries by FIPS code, ISO code, internet code, and country name.
 
 Built on Typescript for the best developer experience.
 
+___
+
 ## Acknowledgements
 
-Credit to [richorama/country-code-lookup](https://github.com/richorama/country-code-lookup) for the base country data 
-and the original scaffold for this package. The original package was converted to Typescript and was restructured with 
+Credit to [richorama/country-code-lookup](https://github.com/richorama/country-code-lookup) for the base country data
+and the original scaffold for this package. The original package was converted to Typescript and was restructured with
 a class-based approach to provide an alternative to the original package. Note that this original package contains
 types, so please choose the package that best suits your needs/development style.
 
@@ -17,10 +24,10 @@ types, so please choose the package that best suits your needs/development style
 - [Installation](#installation)
 - [Usage](#usage)
 - [Methods](#methods)
-  - [FIPS Codes](#fips-codes)
-  - [ISO Codes](#iso-codes)
-  - [Internet Codes](#internet-codes)
-  - [Country Name](#country-name)
+    - [FIPS Codes](#fips-codes)
+    - [ISO Codes](#iso-codes)
+    - [Internet Codes](#internet-codes)
+    - [Country Name](#country-name)
 - [Response (Country)](#response-country)
 - [Which code should I use?](#which-code-should-i-use)
 - [Roadmap](#roadmap)
@@ -85,7 +92,8 @@ Search for a country by internet code.
 
 ### Country Name
 
-Search for a country by name. This method is case-sensitive by default. Enable `ignoreCase` to perform a case-insensitive search.
+Search for a country by name. This method is case-sensitive by default. Enable `ignoreCase` to perform a
+case-insensitive search.
 
 `byCountry(country: string, ignoreCase: boolean = false): CountryResponse`
 
@@ -97,15 +105,15 @@ For simplicity of use, below is the structure of the `Country` object:
 
 ```typescript
 interface Country {
-  continent: string;
-  region: string;
-  country: string;
-  capital: string;
-  fips: string;
-  iso2: string;
-  iso3: string;
-  isoNo: number;
-  internet: string;
+    continent: string;
+    region: string;
+    country: string;
+    capital: string;
+    fips: string;
+    iso2: string;
+    iso3: string;
+    isoNo: number;
+    internet: string;
 }
 ```
 
@@ -123,31 +131,39 @@ The `Country` object contains the following properties:
 
 ## Which code should I use?
 
-In general, if you are asked for a two-digit code, use the ISO2 code. If you are asked for a three-digit code, use the ISO3 code.
+In general, if you are asked for a two-digit code, use the ISO2 code. If you are asked for a three-digit code, use the
+ISO3 code.
 
-The other code types are provided, but it is likely you will know which code you need based on the context in which you are 
+The other code types are provided, but it is likely you will know which code you need based on the context in which you
+are
 asked for it. It's unlikely you will need to use the FIPS code or internet code unless specifically asked for them.
 
 ## Roadmap
 
-This package is a simple utility package and is unlikely to have any major updates. If you have any suggestions or 
+This package is a simple utility package and is unlikely to have any major updates. If you have any suggestions or
 feature requests, please open an issue on GitHub. That said, time permitting, we will likely add the following features:
 
 - Continent-based searches (e.g., get all countries in Europe).
 - Region-based searches (e.g., get all countries in the Middle East).
 - List Continents and Regions.
 - Add more country information (e.g. phone code, currency, etc.).
-  - Searching by these additional fields is likely to be included.
+    - Searching by these additional fields is likely to be included.
 
 ## Versioning
 
-This package uses [Semantic Versioning](https://semver.org/). For the versions available, see the Releases on this repository.
-Due to the nature of this package, it is unlikely to have any major updates, so the versioning will likely remain at 1.x.x.
+This package uses [Semantic Versioning](https://semver.org/). For the versions available, see the Releases on this
+repository.
+Due to the nature of this package, it is unlikely to have any major updates, so the versioning will likely remain at
+1.x.x.
 
-We maintain semver by utilizing [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) via the [Commit Lint](https://commitlint.js.org/)
-package. This allows us to automatically generate the version number based on the commit messages, using the [Release Please](https://github.com/googleapis/release-please-action)
-GitHub Action. Due to this, releases are automatically generated when a new commit is pushed to the main branch. The release is then
-published to the NPM registry. This could mean that the GitHub release and the NPM package version are not in sync for a short period
+We maintain semver by utilizing [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) via
+the [Commit Lint](https://commitlint.js.org/)
+package. This allows us to automatically generate the version number based on the commit messages, using
+the [Release Please](https://github.com/googleapis/release-please-action)
+GitHub Action. Due to this, releases are automatically generated when a new commit is pushed to the main branch. The
+release is then
+published to the NPM registry. This could mean that the GitHub release and the NPM package version are not in sync for a
+short period
 of time.
 
 If a future utility were to be added that significantly changed the nature of the package, we would likely create a new
@@ -155,10 +171,13 @@ package with a different name to avoid complicating the existing package.
 
 ## Contributing
 
-Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue on GitHub.
+Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue on
+GitHub.
 
-For code contributions, please fork the repository and submit a pull request. Please ensure that your code is well-documented
-and that you have added tests for any new features or bug fixes. While this repository does not have a strict code style guide,
+For code contributions, please fork the repository and submit a pull request. Please ensure that your code is
+well-documented
+and that you have added tests for any new features or bug fixes. While this repository does not have a strict code style
+guide,
 you should aim to match the existing code style as closely as possible.
 
 ## License

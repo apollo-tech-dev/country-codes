@@ -5,6 +5,13 @@ search for countries by FIPS code, ISO code, internet code, and country name.
 
 Built on Typescript for the best developer experience.
 
+## Acknowledgements
+
+Credit to [richorama/country-code-lookup](https://github.com/richorama/country-code-lookup) for the base country data 
+and the original scaffold for this package. The original package was converted to Typescript and was restructured with 
+a class-based approach to provide an alternative to the original package. Note that this original package contains
+types, so please choose the package that best suits your needs/development style.
+
 ## Table of Contents
 
 - [Installation](#installation)

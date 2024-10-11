@@ -1,0 +1,50 @@
+{
+  "name": "@apollo-tech/country-codes",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steven-t-h/country-codes"
+  },
+  "version": "1.0.0",
+  "private": false,
+  "description": "A simple utility for retrieving country codes and names",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "jest",
+    "test:cov": "jest --coverage",
+    "build": "tsup",
+    "prepublish": "npm run build",
+    "preversion": "npm test",
+    "deploy": "npm run build && npm publish --access public"
+  },
+  "keywords": [
+    "country",
+    "codes",
+    "country-codes",
+    "FIPS",
+    "ISO",
+    "ISO-3166-alpha-2",
+    "ISO-3166-alpha-3",
+    "ISO-3166-numeric-3",
+    "alpha-2",
+    "alpha-3",
+    "numeric-3",
+    "utility",
+    "typescript"
+  ],
+  "author": "Steven Hall",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.13",
+    "@types/node": "^22.7.4",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.2"
+  }
+}

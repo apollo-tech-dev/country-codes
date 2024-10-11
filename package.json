@@ -2,7 +2,7 @@
   "name": "@apollo-tech/country-codes",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/steven-t-h/country-codes"
+    "url": "git+https://github.com/steven-t-h/country-codes.git"
   },
   "version": "1.0.1",
   "private": false,

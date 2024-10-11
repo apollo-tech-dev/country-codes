@@ -1,6 +1,6 @@
 ![NPM Version](https://img.shields.io/npm/v/%40apollo-tech%2Fcountry-codes)
-![GitHub License](https://img.shields.io/github/license/steven-t-h/country-codes)
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/steven-t-h/country-codes/ci.yml)
+![GitHub License](https://img.shields.io/github/license/apollo-tech-dev/country-codes)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/apollo-tech-dev/country-codes/ci.yml)
 
 # Country Codes
 

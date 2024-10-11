@@ -215,4 +215,13 @@ describe("[ --- Country Codes -- ]", function () {
         });
     });
 
+    describe("[ --- TODO --- ]", function () {
+        it.todo("should have a method to get all countries in a region");
+        it.todo("should have a method to get all countries in a continent");
+        it.todo("should have a method to retrieve all continents");
+        it.todo("should have a method to retrieve all regions");
+        it.todo("should contain phone codes");
+        it.todo("should contain currency codes");
+    })
+
 });

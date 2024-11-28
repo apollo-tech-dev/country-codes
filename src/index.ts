@@ -2831,6 +2831,12 @@ export default class CountryCodes {
      *
      */
     public byIso(code: string | number, safeMode = false): CountryResponse {
+        if (!code && safeMode) {
+            return null;
+        }
+        if (!code) {
+            throw new Error('[CountryCodes] Invalid ISO code. Enable safe mode to suppress this error.');
+        }
         if (typeof code === 'number') {
             return this.search('isoNo', ('00' + code.toString()).slice(-3));
         }

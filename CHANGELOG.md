@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/apollo-tech-dev/country-codes/compare/v1.0.2...v1.0.3) (2024-11-28)
+
+
+### Bug Fixes
+
+* handle null byIso requests ([e9af13c](https://github.com/apollo-tech-dev/country-codes/commit/e9af13c68719422f6c0abd6dffca1ef596b749f3))
+
 ## [1.0.2](https://github.com/apollo-tech-dev/country-codes/compare/v1.0.1...v1.0.2) (2024-10-11)
 
 

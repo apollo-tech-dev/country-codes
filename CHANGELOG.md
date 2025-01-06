@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/apollo-tech-dev/country-codes/compare/v1.0.3...v1.0.4) (2025-01-06)
+
+
+### Bug Fixes
+
+* output types ([4b9c9c0](https://github.com/apollo-tech-dev/country-codes/commit/4b9c9c0c8dbf05fb9e5f93e2e61afbada6e64bc1))
+
 ## [1.0.3](https://github.com/apollo-tech-dev/country-codes/compare/v1.0.2...v1.0.3) (2024-11-28)
 
 

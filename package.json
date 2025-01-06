@@ -4,7 +4,7 @@
     "type": "git",
     "url": "git+https://github.com/apollo-tech-dev/country-codes"
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": false,
   "description": "A simple utility for retrieving country codes and names",
   "main": "./dist/index.js",

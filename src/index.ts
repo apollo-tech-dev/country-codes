@@ -2804,7 +2804,7 @@ export default class CountryCodes {
      *
      * const country = countryCodes.byFips('US');
      */
-    public byFips(code: string): CountryResponse {
+    public byFips(code: string): CountryResponse | null {
         return this.search('fips', code.toUpperCase());
     }
 
@@ -2869,7 +2869,7 @@ export default class CountryCodes {
      *
      * const country = countryCodes.byInternet('US');
      */
-    public byInternet(code: string): CountryResponse {
+    public byInternet(code: string): CountryResponse | null {
         return this.search('internet', code.toUpperCase());
     }
 
@@ -2889,7 +2889,7 @@ export default class CountryCodes {
      *
      * const countryWithCaseInsensitive = countryCodes.byCountry('united states', true);
      */
-    public byCountry(country: string, ignoreCase = false): CountryResponse {
+    public byCountry(country: string, ignoreCase = false): CountryResponse | null {
         return this.search('country', country, ignoreCase);
     }
 
@@ -2901,7 +2901,7 @@ export default class CountryCodes {
      * @param ignoreCase - Enable case-insensitive search
      * @private
      */
-    private search<K extends keyof Country>(field: K, code: Country[K], ignoreCase = false): CountryResponse {
+    private search<K extends keyof Country>(field: K, code: Country[K], ignoreCase = false): Country | null {
         if (!ignoreCase) {
             return this.countryList.find(c => c[field] === code) || null;
         }
